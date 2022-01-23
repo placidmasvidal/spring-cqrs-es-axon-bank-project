@@ -4,8 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class UserCommandApplicationTests {
 
+	@SuppressWarnings("squid:S2699")
 	@Test
 	void contextLoads() {
 	}
