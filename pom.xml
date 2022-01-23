@@ -7,10 +7,12 @@
     <groupId>org.springbank</groupId>
     <artifactId>spring-cqrs-es-axon-bank-project</artifactId>
     <version>1.0</version>
+    <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-    </properties>
+    <modules>
+        <module>user.core</module>
+        <module>user.cmd.api</module>
+        <module>user.query.api</module>
+    </modules>
 
 </project>
