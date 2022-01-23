@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.3</version>
+		<version>2.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springbank</groupId>
@@ -14,7 +14,7 @@
 	<name>user.core</name>
 	<description>The User Core Project</description>
 	<properties>
-		<java.version>16</java.version>
+		<java.version>15</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -35,13 +35,13 @@
 		<dependency>
 			<groupId>org.axonframework</groupId>
 			<artifactId>axon-spring-boot-starter</artifactId>
-			<version>4.5.5</version>
+			<version>4.4</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.axonframework.extensions.mongo</groupId>
 			<artifactId>axon-mongo</artifactId>
-			<version>4.5</version>
+			<version>4.4</version>
 		</dependency>
 
 		<dependency>
